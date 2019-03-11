@@ -1,0 +1,76 @@
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 0px 10px $lightest-grey;
+}
+
+.navbar-side {
+  position: fixed;
+  left: 0;
+  height: 100%;
+}
+
+.navbar-auth {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar-padding-backoffice {
+  padding: 0 40px 0 40px;
+}
+
+.nav-backoffice {
+  padding-bottom: 2rem;
+}
+
+.down-nav {
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 2rem;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 44px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.login-information {
+  color: $light-grey;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.card {
+  border: none;
+  border-radius: 0;
+  -webkit-box-shadow: 2px 2px 10px $lightest-grey;
+  -moz-box-shadow: 2px 2px 10px $lightest-grey;
+  box-shadow: 2px 2px 10px $lightest-grey;
+  margin-bottom:50px;
+}
+
+.card .col-md-10 input {
+  background: $light-grey;
+  color: $lighter-grey;
+}
+.card .col-md-10 input::placeholder {
+  color: $lighter-grey;
+}
+
+.btn-login {
+  background: $light-blue;
+  border: $light-blue;
+  color: white;
+  background-image: url("../images/icons/Forward arrow.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 10px;
+  height: 37px;
+  width: 35px;
+}
+
+.login-container {
+  margin: auto;
+}

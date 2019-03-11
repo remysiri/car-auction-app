@@ -1,0 +1,62 @@
+@import 'abstracts/variables';
+
+.top {
+    color: $color-red-primary;
+    text-align: center;
+    font-weight: 700;
+    display: block;
+}
+
+.social-links {
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 1.5%;
+}
+
+.social-links a img {
+    height: 20px;
+}
+
+.quick-links {
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.quick-links .quick-items {
+    display: inline-block;
+}
+
+.quick-links .quick-items .heading {
+    color: $color-red-primary;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.quick-links .quick-items li {
+    list-style: none;
+}
+
+.copy {
+    text-align: center;
+    display: block;
+    margin-top: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.terms {
+    color: $color-red-primary;
+}
+
+.clear-fix {
+    clear: both;
+}

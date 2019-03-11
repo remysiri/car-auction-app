@@ -1,0 +1,56 @@
+@import 'abstracts/variables';
+
+.news-container {
+    display: block;
+    width: 100%;
+    margin-top: 80px;
+
+    .news-items {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 100%;
+
+        .item {
+            float: left;
+        }
+
+        .header {
+            width: 300px;
+            position: relative;
+
+            img {
+                width: 300px;
+            }
+
+            .title {
+                background: $color-red-primary;
+                display: inline-block;
+                color: #fff;
+                padding: 10px;
+                font-weight: 400;
+                box-shadow: 0 0 5px $color-grey;
+                position: absolute;
+                top: -15px;
+                width: 100%;
+                box-sizing: border-box
+            }
+        }
+
+        .content {
+            max-width: 60%;
+            margin-left: 2.5%;
+
+            p {
+                text-align: justify;
+            }
+
+            a {
+                color: $color-red-primary;
+            }
+        }
+    }
+}
+
+.clear-fix {
+    clear: both;
+}

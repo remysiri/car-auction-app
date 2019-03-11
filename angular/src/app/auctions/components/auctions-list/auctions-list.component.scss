@@ -1,0 +1,35 @@
+@import 'abstracts/variables';
+
+.popular-container {
+    display: block;
+    width: 100%;
+}
+
+.popular-container .popular-items {
+    width: 300px;
+    float: left;
+    margin: 1.6%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.popular-container .popular-items img {
+    width: 300px;
+}
+
+.popular-container .popular-items .price {
+    background: $color-red-primary;
+    display: inline-block;
+    color: #fff;
+    padding: 10px;
+    font-weight: 400;
+    box-shadow: 0 0 5px $color-grey;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.clear-fix {
+    clear: both;
+}

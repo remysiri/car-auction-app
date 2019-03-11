@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="110 981 224 47">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d8233e;
+        font-size: 40px;
+        font-family: Roboto-Bold, Roboto;
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        fill: #707070;
+        font-family: Roboto-Medium, Roboto;
+        font-weight: 500;
+      }
+    </style>
+  </defs>
+  <text id="GTIMPORTS" class="cls-1" transform="translate(222 1018)"><tspan x="-111.787" y="0">GT</tspan><tspan class="cls-2" y="0">IMPORTS</tspan></text>
+</svg>

@@ -1,0 +1,47 @@
+@import 'abstracts/variables';
+
+.baseline {
+    color: $color-purple;
+}
+
+.offcanvas {
+    max-width: 320px;
+    width: 320px;
+}
+
+.overflow {
+    overflow: hidden;
+    width: 100%;
+}
+
+app-header {
+    display: block;
+    width: 100%;
+    padding: 10px 50px;
+    box-shadow: 0 0 5px #eee;
+    box-sizing: border-box;
+}
+
+app-navigation {
+    display: block;
+    width: 100%;
+    padding: 2px 50px;
+    background: $color-red-primary;
+    border-bottom: 1px solid #eee;
+    box-sizing: border-box;
+}
+
+app-notifications {
+    display: block;
+    width: 100%;
+    padding: 2px 50px;
+    background: $color-red-secondary;
+    box-sizing: border-box;
+}
+
+app-footer {
+    display: block;
+    border-top: 1px solid $color-grey;
+    margin-top: 80px;
+    padding: 50px;
+}

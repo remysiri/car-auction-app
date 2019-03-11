@@ -1,0 +1,33 @@
+@import 'abstracts/variables';
+
+
+.item {
+float: left;
+}
+
+.header {
+width: 46%;
+margin: 2%;
+position: relative;
+
+img {
+width: 100%;
+}
+}
+
+.content {
+max-width: 46%;
+margin: 2%
+
+p {
+text-align: justify;
+}
+
+a {
+color: $color-red-primary;
+}
+}
+
+.clear-fix {
+    clear: both;
+}

@@ -1,0 +1,12 @@
+<h2>Auctions</h2>
+<div class="popular-container" *ngIf="auctions">
+  <div class="popular-items" *ngFor="let auction of auctions.data | slice:minAmount:maxAmount">
+    <a routerLink="/auctions/{{auction.id}}">
+    <img src="../../../../assets/images/popular/1.jpg"/>
+    </a>
+    <div class="price">€{{ auction.price | number:'1.2-2' }}</div>
+  </div>
+</div>
+<div class="clear-fix"></div>
+
+

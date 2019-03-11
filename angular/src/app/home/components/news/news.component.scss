@@ -1,0 +1,43 @@
+@import 'abstracts/variables';
+
+.news-container {
+    display: block;
+    width: 100%;
+}
+
+.news-container .news-items {
+    width: 300px;
+    float: left;
+    margin: 1.6%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.news-container .news-items img {
+    width: 300px;
+}
+
+.news-container .news-items .title {
+    background: $color-red-primary;
+    display: inline-block;
+    color: #fff;
+    padding: 10px;
+    font-weight: 400;
+    box-shadow: 0 0 5px $color-grey;
+    position: absolute;
+    top: -10px;
+    width: 100%;
+    box-sizing: border-box
+}
+
+.news-container .news-items p {
+    text-align: justify;
+}
+
+.news-container .news-items a {
+    color: $color-red-primary;
+}
+
+.clear-fix {
+    clear: both;
+}

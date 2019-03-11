@@ -1,0 +1,10 @@
+<h2>Showroom</h2>
+<div class="popular-container" *ngIf="showroom">
+  <div class="popular-items" *ngFor="let showroom of showroom.data | slice:minAmount:maxAmount">
+      <a routerLink="/showroom/{{showroom.id}}">
+    <img src="../../../../assets/images/popular/1.jpg"/>
+    <div class="price">€{{ showroom.price | number:'1.2-2' }}</div>
+    </a>
+  </div>
+</div>
+<div class="clear-fix"></div>

@@ -1,0 +1,18 @@
+<h2>News</h2>
+<div class="news-container" *ngIf="blog">
+  <div class="news-items" *ngFor="let blog of blog.data | slice:minAmount:maxAmount">
+    <a routerLink="/news/{{blog.id}}">
+    <div class="item header">
+      <p class="title">{{ blog.title }}</p>
+      <img src="../../../../assets/images/news/1.jpg"/>
+    </div>
+    <div class="item content">
+    <p>{{ blog.summary }}</p>
+    <a>Read more</a>
+    </div>
+    </a>
+    <div class="clear-fix"></div>
+  </div>
+</div>
+
+<div class="clear-fix"></div>
